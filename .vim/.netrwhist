@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/thfirmin/evaluate/rank02/minitalk/fecunha'
+let g:netrw_dirhist_1='/Users/thfirmin/test'
+let g:netrw_dirhist_0='/home/thino/Algorithm/sort/bubble_sort'
+let g:netrw_dirhist_9='/home/thino/Algorithm/sort/insertion_sort.c'
+let g:netrw_dirhist_8='/cygdrive/e/Algorithms'
+let g:netrw_dirhist_7='/home/thino/teste_gerais/lists'
+let g:netrw_dirhist_6='/home/thino/42rio_repo/Holy_Graph/cursos42'
+let g:netrw_dirhist_5='/home/thino/libftTest/tde-souz'
+let g:netrw_dirhist_4='/home/thino/libftTest'
+let g:netrw_dirhist_3='/home/thino/42connect/Holy_Graph/Cursus42/libft'
