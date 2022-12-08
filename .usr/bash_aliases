@@ -1,0 +1,12 @@
+alias basha='vim ${HOME}/.usr/bash_aliases && source ${HOME}/.usr/bash_aliases'
+alias bashf='vim ${HOME}/.usr/bash_functions && source ${HOME}/.usr/bash_functions'
+alias vimrc='vim ${HOME}/.vimrc'
+alias bashrc='vim ${HOME}/.bashrc && source ${HOME}/.bashrc'
+
+alias clean='find . -type f \( -name "*~" -o -name "*.gch" \) -print -delete'
+alias ll='ls -l'
+alias la='ls -a'
+alias norma='norminette -R CheckForbiddenSourceHeader'
+alias leakme='valgrind --leak-check=full --show-leak-kinds=all --track-origins=yes'
+
+# vim: ft=bash

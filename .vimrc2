@@ -1,0 +1,108 @@
+" "SETTINGS" {
+	" "Software Settings" {
+		" Desabilita compatibilidade com vi que pode causar problemas inesperados. Para habilitar use "compatible"
+		set nocompatible
+
+		" salva arquivos de backup. (Para salvar use "nobackup")
+		set nobackup
+		set noundofile
+		set noswapfile
+
+		" Habilita detecção de tipo de arquivo. Vim poderá tentar detectar o tipo do arquivo em uso.
+		filetype on
+
+		" Habilita e carrega plugins para os tipos de arquivos detectados.
+		filetype plugin on
+
+		" Carrega um arquivo de identação para os tipos de arquivos detectados.
+		filetype indent on
+
+		" Define os comandos que são salvos no histórico (o valor padrão é 20).
+		set history=20
+
+		" "Search Settings" {
+			" Ao pesquisar em um arquivo, realce os caracteres correspondentes à medida que você digita. Para desabilitar use "no" no inicio
+			set incsearch
+
+			" Mostra palavras compativeis com a pesquisa. Para desabilitar use "no" no inicio 
+			set showmatch
+
+			" Usa realce durante uma busca. Para desabilitar use "no" no inicio
+			set nohlsearch
+			
+			" Ignora letras capital durante a busca.
+			set noignorecase
+
+			" Habilita a procura especifica por uma palavra e considera a letra capital. Essa opção sobrepõe a configuração ignorecase.
+			set nosmartcase
+		" }
+	" }
+	" "Interface Settings" {
+		" Liga a syntax highlighting.
+		syntax on
+		syntax enable
+
+		" Habilita guia de número de linha.
+		set number
+
+		" Ilumina o fundo horizontal da linha onde se encontra o cursor.
+		set cursorline
+
+		" Ilumina o fundo vertical da coluna onde se encontra o cursor. para desabilitar, use "no" no inicio.
+		set nocursorcolumn
+
+		" Mostra parte do comando que você digita na ultima linha da tela.
+		set showcmd
+
+		" Mostra o modo do vim na última linha.
+		set showmode
+
+		set splitright
+		" "Highlight Settings" {
+			"Altera estilo de realce do "CursorLine".
+			highlight CursorLine term=bold cterm=bold guibg=DarkGrey
+		" }
+		" "Theme Settings" {
+			packadd! dracula
+			colorscheme dracula
+		" }
+	" }
+	" "Editor Settings" {
+		" Define o tamanho do tab para [n] colunas.
+		set tabstop=4
+
+		" Define o tamanho do shift para [n] espaços.
+		set shiftwidth=4
+
+		" Usa o catactere de espaços no lugar de tabs. Para desabilitar use "no" no inicio.
+		set noexpandtab
+
+		" Não permite que o cursor role depois ou acima de N numeros de linhas enquanto está rolando.
+		set scrolloff=10
+
+		" Desabilita a formatação de quebra de linhas. Permite que a linha se extenda tão longe quanto necessário.
+		set nowrap
+
+		" "Folder Settings" {
+
+				" Define o metodo de folding como maker
+				set foldmethod=marker
+
+				" Define os caracteres de inicio e fim do folder
+				set foldmarker={,}
+				set nofoldenable
+		" }
+	" }
+	" "42Header Settings" {
+		" 42 Header User and Email.
+		let g:user42 = 'thfirmin'
+		let g:mail42 = 'thiagofirmino2001@gmail.com'
+	" }
+"}
+
+" "Maps" {
+	map <C-h> <C-w>h
+	map <C-j> <C-w>j
+	map <C-k> <C-w>k
+	map <C-l> <C-w>l
+" }

@@ -1,0 +1,14 @@
+mdecto()
+{
+	FLAG=$1
+	NBR=$@
+
+	for nbr in $NBR; do
+		if [ ${nbr:0:1} != "-" ]; then
+			echo -n "${nbr} ="
+			decto ${nbr} ${FLAG}
+		fi
+	done
+}
+
+# vim: ft=bash
