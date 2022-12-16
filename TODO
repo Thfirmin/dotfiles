@@ -1,0 +1,27 @@
+# TODO
+
+[x] Discover terminal interpreter 
+[ ] Mount bash user's profile configuration
+	[ ] source usr directory with profile
+	[ ] Mount usr directory with:
+		* _'bin'_ directory
+		* -'man'- directory
+		* -'include'- directory
+		* -'bashrc'- file
+		* -'bash_aliases'- file
+		* -'bash_functions'- file
+
+[ ] Mount zsh user's profile configuration
+	[ ] source usr directory with profile
+	[ ] Mount usr directory with:
+		* _'bin'_ directory
+		* -'man'- directory
+		* -'include'- directory
+		* -'zshrc'- file
+		* -'zsh_aliases'- file
+		* -'zsh_functions'- file
+		
+[ ] Mount personal util packages list, update, upgrade and istall them
+[ ] Configure Packages 
+
+# vim: ft=md
