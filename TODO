@@ -1,5 +1,19 @@
 # TODO
 
+[] Mod to [Super]user
+[] Set desktop environment
+[] Set Tests environment
+
+##+> Set Desktop environment
+[] Install and update needed packages
+[] Setup .usr directory
+[] Setup .vim directory
+=+>
+
+
+##+> Set Tests environment
+
+=+>
 [x] Discover terminal interpreter 
 [ ] Mount bash user's profile configuration
 	[ ] source usr directory with profile
