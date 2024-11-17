@@ -15,7 +15,7 @@ parse_git_branch()
 {
 	BRANCH=$(git branch 2> /dev/null | grep \* | cut -d ' ' -f 2)
 	if [[ $BRANCH != "" ]]; then
-		echo -n "\033[96m($BRANCH)\033[0m"
+		echo -en "\033[96m($BRANCH)\033[0m"
 	else
 		lsb_release -i | sed "s/.*:[[:space:]]//"
 	fi
